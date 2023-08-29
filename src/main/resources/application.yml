@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: book-service
+
+  datasource:
+    url: "jdbc:mysql://127.0.0.1:3306/book"
+    username: "manu"
+    password: "password"
+
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+
+server:
+  port: 8087
